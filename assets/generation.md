@@ -1,0 +1,44 @@
+# ECHO / A place for you — image assets
+
+Generated with the built-in image_gen tool using the imagegen skill. Source images remain in the tool's generated_images folder. These are new original fan illustrations; ECHO is not an official ChatGPT mascot.
+
+## room.png
+
+Source: `/home/dsslab/.codex/generated_images/01a1d745-3a9d-70f0-9699-0eb356b77291/exec-da3dcc3c-e6f3-4fb0-aa80-f84fcf8fdf1a.png`
+
+Use case: illustration-story. Asset: widescreen anime music-film background plate, landscape 16:9. Paint an exquisite hand-painted cinematic anime interior, an intimate attic studio at late golden afternoon. A low dark wooden desk and a gently glowing mint laptop on the LEFT third, TWO distinct chairs close together near the desk, a pale ceramic mug, an unlit small desk lamp, delicate electric cables. On the RIGHT half a very large arched window looking into a small glass conservatory and a hazy city, light translucent curtains framing it. Botanical leaves at edges, wooden floorboards receding into depth, scattered blank sheets of ivory paper on the desk. No characters, no birds, no text, no symbols, no legible writing, no watermark. Quiet believable tactile place rather than videogame stage. Detailed fine anime background linework, textured gouache shading, smoky blue-green shadows and honey daylight, elegant restrained palette, strong spatial depth with foreground corners dark and luminous window behind. Frame wide with usable empty middle foreground for compositing an anime girl, calm eye-level slightly low camera, avoid geometry grids, interface panels, sci-fi holograms. Fill the entire frame, no frame border, no collage.
+
+## garden.png
+
+Source: `/home/dsslab/.codex/generated_images/01a1d745-3a9d-70f0-9699-0eb356b77291/exec-88ab1396-5fff-4750-a6bc-2b4627d959c7.png`
+
+Use case: illustration-story. Asset: widescreen hand-painted anime music-film background plate 16:9. A beautiful abandoned glass conservatory above a city at blue hour. Long narrow reflecting pool receding from foreground toward a tall rounded glass door in the center-right; wild pale flowers, tall graceful grasses, climbing vines, elegant weathered iron window frames, old stone stepping path to left of water, distant dark city beyond rain-streaked glass. Empty near foreground for compositing an anime girl on the left. A very faint pale peach sun going down, silver teal light in deep indigo shadows, poetic delicate dreamy film lighting, detailed textured painterly background art, cinematic spatial depth. No people, no animals, no text, no UI, no diagram, no geometric holograms, no border or collage, no saturated fantasy rainbow. Intimate, warm hints inside a cool melancholic world; feels physically real within anime art. A few paper sheets tucked between plants but no paper birds.
+
+## platform.png
+
+Source: `/home/dsslab/.codex/generated_images/01a1d745-3a9d-70f0-9699-0eb356b77291/exec-a4468ce3-03dd-4a15-85a2-3805a088a93b.png`
+
+Use case: illustration-story. Asset: widescreen hand-painted anime film background plate 16:9, cinematic perspective. A completely empty covered railway platform at night in rain. Long soft pools of cold mint station light, one wooden bench on the LEFT, a large glass wall and closed glass door to the RIGHT opening toward distant blurred warm city windows across dark tracks. Deep vanishing point slightly right of center, wet dark floor with delicate reflected light, dark overhead canopy, telephone wires and vague city silhouettes, a single distant warm window far away. Quiet abandonment, tender melancholy, very fine anime background art, painterly atmospheric perspective, detailed foreground tile texture, blue-black indigo and desaturated green with tiny warm amber accents. No people, no trains, no animals, no signs, no letters, no text, no logos, no watermark. Leave empty middle foreground to composite a character. Not horror, no red lighting, no magical portals, no UI or geometric grids, fill full frame no border.
+
+## poses.png
+
+Source: `/home/dsslab/.codex/generated_images/01a1d745-3a9d-70f0-9699-0eb356b77291/exec-cfe53c2b-ef7c-49dc-bb73-2944be04918a.png`
+
+Use case: illustration-story. Asset: transparent 2x2 pose sheet for a cinematic anime music film. Input image 1: identity and outfit reference ONLY. Draw the SAME cute ECHO anime girl: pearl white fluffy bob haircut with pale mint tips, mint green eyes, tiny daisy hair clip on her left side, ivory oversized hoodie with sage mint sleeves and little six-petal flower embroidery, short pleated sage skirt, opaque ivory tights and mint sneakers. Wholesome, fully clothed, gentle, normal anime proportions about five heads tall; NOT chibi. Refine the painting to expressive cinematic anime cel shading with delicate linework and soft textured shading, subdued colors, no glow halo. EXACT 2x2 regular grid, four equal square cells, transparent PNG, no borders or text. Whole body completely inside each cell with generous padding and roughly consistent size. Top left: seated on an invisible chair, side-three-quarter facing right, quietly concentrating, hands held forward at desk height as if typing on a keyboard (no desk/keyboard/chair, ONLY character). Top right: standing three-quarter facing right, hopeful soft smile, both open palms gently extended in front of chest toward the right as if offering a tiny bird; hands empty. Bottom left: standing facing right in an urgent reach, one arm reaching all the way right, other hand at chest, eyes wide with loss, sleeve and skirt caught in gentle wind, mouth slightly open (not screaming). Bottom right: sitting on the floor with knees drawn close, arms loosely hugging knees, face turned slightly upward toward right with a tiny exhausted wistful expression, no tears exaggerated, quiet sadness. Exact identity across poses. Separate cutout figures with actual alpha0 empty background. No props, no floor shadows, no hearts, no surrounding sparkles, no text, no background color.
+
+## portraits.png
+
+Source: `/home/dsslab/.codex/generated_images/01a1d745-3a9d-70f0-9699-0eb356b77291/exec-621117ed-ac44-4d89-877b-a9e774581e7c.png`
+
+Use case: illustration-story. Asset: transparent 2x2 cinematic anime close-up portrait sheet. Input image 1 is the identity/costume reference ONLY. SAME very cute ECHO girl, pearl white fluffy bob, pale mint hair tips, large mint green eyes, tiny daisy flower hairclip, ivory hoodie sage mint sleeves and little flower embroidery. Normal anime anatomy not chibi, wholesome fully clothed. Four finely drawn BUST portraits, from head to below chest, all same framing and scale, roomy top margin so hair never clipped, soft cinematic anime cel shading and detailed eyes, delicate lines. EXACT equal 2x2 cells in square transparent PNG, no borders or labels. Top left: hopeful looking slightly toward right, small tender smile, open mint eyes, softly lit warm on right. Top right: identical camera and posture to top left but eyelids closed in gentle fleeting smile, nearly exact facial alignment for blink crossfade. Bottom left: looking toward right, eyes wide and reflective, one hand gripping hoodie at chest, faint parted lips, quiet startled grief. Bottom right: looking slightly downward toward right, eyes tired half-lidded but still tender, hand resting near chest, quiet acceptance, cool subdued shading. Do not draw tears streaming or exaggerated expressions. No scenery, no props, no floating decorations, no hearts, no text, no watermark, true alpha0 transparent negative space between portraits.
+
+## Alpha cleanup
+
+Edit target: the supplied 2x2 anime sheet. Remove ONLY all background haze, fog, white washes, broad glow and colored fringe around the silhouettes; every pixel of empty space outside the actual characters must be fully transparent alpha 0. Preserve the original character artwork, fine linework, hair strands, color, poses, facial expressions and exact regular 2x2 layout. No scenery, shadows, colored halos, background, labels or new elements. These will be composited onto dark scenes; the silhouette edges must be clean. For the full-body sheet ONLY, fit each original full figure 6% smaller within its own cell to leave a little transparent space beneath shoes; do not crop feet. This is background extraction, not a redesign.
+
+Full-body and portrait originals were cleaned by image_gen before being copied to the project. The browser animates the transparent sheets directly; no Python retouching was used.
+
+
+## Retained chibi cameo
+
+`chibi.png` is a local copy of `../../assets/playground/echo-chibi-clean.png`, generated with built-in image_gen for the previous ECHO design. The original prompt and alpha-cleanup prompt are preserved in `../../assets/playground/generation.md`. It appears only during the cat verse (80.93–84.60 seconds); the rest of the film uses the newly generated normal-proportion artwork.

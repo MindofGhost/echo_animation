@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1113">
+  <title>ECHO — A place for you.</title>
+  <meta name="description" content="Иллюстрированный музыкальный фильм с ECHO по world.execute(me); — Mili.">
+  <link rel="stylesheet" href="film.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <a class="brand" href="../anime.html" aria-label="Открыть вторую версию"><span class="flower">✳</span> ECHO <span class="edition">/ 05</span></a>
+      <span class="top-note">AN ILLUSTRATED MUSIC FILM</span>
+      <nav aria-label="Предыдущие версии"><a href="../anime.html">02 / Anime</a><a href="../twilight.html">04 / Twilight</a></nav>
+    </header>
+    <section class="heading" aria-labelledby="film-title">
+      <div><span class="eyebrow">MILI · WORLD.EXECUTE(ME);</span><h1 id="film-title">A place for you<span>.</span></h1></div>
+      <p>Иллюстрированный клип<br>03:32 · ECHO</p>
+    </section>
+    <section class="cinema" aria-label="Музыкальный фильм">
+      <div id="stage" class="stage" tabindex="0" aria-label="Анимация ECHO. Пробел — пауза, стрелки — перемотка, T — терминал.">
+        <canvas id="screen" width="1600" height="900" aria-label="ECHO: мастерская, стеклянный сад и ночная платформа"></canvas>
+        <div id="loading" class="loading" role="status"><span></span>Готовим иллюстрации…</div>
+        <div id="cover" class="cover" hidden>
+          <button id="start" class="start"><span class="start-circle">▶</span><span>Смотреть клип<small>03:32 · со звуком</small></span></button>
+        </div>
+        <div id="caption" class="caption" aria-hidden="true"></div>
+        <button id="terminal-toggle" class="terminal-toggle" aria-controls="terminal" aria-expanded="false" title="Терминал · T"><span>&gt;_</span><span>terminal</span></button>
+        <aside id="terminal" class="terminal" aria-label="Терминал с автоматическим набором кода" hidden>
+          <header><span><i></i> echo / auto <span id="terminal-clock">00:00</span></span><button id="terminal-close" aria-label="Закрыть терминал">×</button></header>
+          <div id="terminal-output" class="terminal-output" tabindex="0" aria-label="Код текущей сцены"><pre id="terminal-code"></pre></div>
+          <footer>Код набирается автоматически · Esc — закрыть</footer>
+        </aside>
+        <span id="stage-notice" class="stage-notice" role="status"></span>
+      </div>
+      <div class="transport">
+        <div class="seek-wrap"><input id="seek" type="range" min="0" max="212.3755" step="0.01" value="0" aria-label="Позиция в записи"><div id="marks" class="marks" aria-hidden="true"></div></div>
+        <div class="transport-row">
+          <div class="transport-left"><button id="play" class="play" disabled aria-label="Воспроизвести">▶</button><span class="time"><span id="elapsed">00:00</span><span class="divider">/</span><span id="duration">03:32</span></span><span id="chapter" class="chapter">01 · Мастерская</span></div>
+          <div class="transport-right"><label class="volume"><span aria-hidden="true">♪</span><input id="volume" type="range" min="0" max="1" step="0.01" value="0.75" aria-label="Громкость"></label><button id="cc" aria-pressed="false" title="Текст песни · C" aria-label="Показать текст песни">CC</button><button id="fullscreen" title="Полный экран · F" aria-label="Полный экран">⛶</button></div>
+        </div>
+      </div>
+      <p id="error" class="error" role="alert" hidden></p>
+    </section>
+    <footer class="page-footer"><span>Музыка и текст — Mili. Неофициальная визуальная интерпретация.</span><span>Пробел — пауза <b>·</b> ← → — перемотка <b>·</b> T — терминал</span></footer>
+  </main>
+  <audio id="audio" src="../Mili%20-%20world.execute(me).mp3" preload="auto"></audio>
+  <script src="lyrics.js"></script>
+  <script src="direction.js"></script>
+  <script src="performance.js"></script>
+  <script src="film.js"></script>
+  <script src="export.js"></script>
+</body>
+</html>
